@@ -1,0 +1,28 @@
+GitHub repository name:
+wordpress-security-audit
+
+GitHub About / Description:
+Read-only Bash security audit for WordPress: integrity checks, suspicious PHP/web-shell detection, permissions, WP-CLI checks, persistence indicators and optional deep scan.
+
+Shorter variant:
+Read-only WordPress security audit in Bash with integrity, malware, permissions and persistence checks.
+
+Suggested topics:
+wordpress
+wordpress-security
+security-audit
+bash
+wp-cli
+malware-scanner
+webshell
+incident-response
+linux-security
+wordpress-malware
+sysadmin
+blue-team
+
+Suggested repository visibility:
+Public
+
+Suggested default branch:
+main
