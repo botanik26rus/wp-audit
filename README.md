@@ -91,7 +91,7 @@ chmod 755 /usr/local/sbin/wp-audit
 
 ```bash
 git clone https://github.com/botanik26rus/wp-audit.git
-cd REPOSITORY
+cd wp-audit
 chmod +x wp-audit.sh
 ```
 
@@ -256,7 +256,7 @@ wordpress-security-audit/
 При таком расположении прямая ссылка на файл выглядит так:
 
 ```text
-https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/wp-audit.sh
+https://raw.githubusercontent.com/botanik26rus/wp-audit/main/wp-audit.sh
 ```
 
 Например, если пользователь GitHub — `ivan`, а репозиторий называется `wordpress-security-audit`:
@@ -279,7 +279,7 @@ curl -fsSL \
 
 ```bash
 curl -fsSL \
-  https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/wp-audit.sh \
+  https://raw.githubusercontent.com/botanik26rus/wp-audit/main/wp-audit.sh \
   -o /tmp/wp-audit.sh
 
 less /tmp/wp-audit.sh
