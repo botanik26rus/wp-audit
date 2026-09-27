@@ -60,7 +60,7 @@
 
 ```bash
 curl -fsSL \
-  https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/wp-audit.sh \
+  https://raw.githubusercontent.com/botanik26rus/wp-audit/main/wp-audit.sh \
   -o /usr/local/sbin/wp-audit
 ```
 
@@ -80,7 +80,7 @@ sudo wp-audit /path/to/wordpress
 
 ```bash
 wget -O /usr/local/sbin/wp-audit \
-  https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/wp-audit.sh
+  https://raw.githubusercontent.com/botanik26rus/wp-audit/main/wp-audit.sh
 ```
 
 ```bash
@@ -90,7 +90,7 @@ chmod 755 /usr/local/sbin/wp-audit
 ### Вариант 3. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone https://github.com/botanik26rus/wp-audit.git
 cd REPOSITORY
 chmod +x wp-audit.sh
 ```
