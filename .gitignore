@@ -1,0 +1,39 @@
+# Runtime audit reports
+wp-security-audit-*.log
+wp-security-audit-*.commands.txt
+
+# Temporary / local test output
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# OS / editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Archives / packaged test artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Local WordPress test installations
+wordpress/
+wp-test/
+test-site/
